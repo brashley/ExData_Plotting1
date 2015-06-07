@@ -5,7 +5,7 @@
 For this assignment, I created 4 graphs listed as `plot1.png`, `plot2.png`, `plot3.png`, `plot4.png`.  
 Each plot has a corresponding R file listed as `plot1.R`, `plot2.R`, `plot3.R`, `plot4.R`
 
-The R code for each plot is standalone and will both download the zip file as well as unzip the data file in the current working directory if the file does not exist. The unzipped data was loaded using the fast `fread` function and loaded into a `data.table`.  The `Date` and `Time` columns were converted into a single `date_time` column. An index was then created for the `date_time` column and then used to quickly subset the data to the specified 2 days for plotting. 
+The R code for each plot is standalone and will both download the zip file as well as unzip the data file in the current working directory if the file does not exist. The unzipped data was loaded using the fast `fread` function and loaded into a `data.table`.  The `Date` and `Time` columns were converted into a single `date_time` column. An index was then created for the `date_time` column and then used to quickly subset the data to the specified 2 days for plotting. The plots all use a background of `transparent` as I find that more flexable for use in presentations and papers.
 
 R *code*  and *png*  files were put in the root directory as requested.  The original instruction for the assignment were left as is below for reference.
 
